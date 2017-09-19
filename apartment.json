@@ -1,0 +1,45 @@
+{
+  "apartments": [{
+    "id": 1,
+    "owner": "Mweru Muchai",
+    "city": "Nairobi",
+    "type": "Apartment",
+    "bedrooms": 3,
+    "image": "https://unsplash.com/photos/xA81cF8HXf0.jpg"
+  }, {
+    "id": 2,
+    "owner": "Mike Johnson",
+    "city": "Naivasha",
+    "type": "Apartment",
+    "bedrooms": 5,
+    "image": "https://unsplash.com/photos/UV81E0oXXWQ.jpg"
+  }, {
+    "id": 3,
+    "owner": "Clarita Donalds",
+    "city": "Capetown",
+    "type": "Condo",
+    "bedrooms": 2,
+    "image": "https://unsplash.com/photos/AQl-J19ocWE.jpg"
+  }, {
+    "id": 4,
+    "owner": "Ken Michaels",
+    "city": "JoBerg",
+    "type": "Apartment",
+    "bedrooms": 3,
+    "image": "https://unsplash.com/photos/p0n6Kntq-4w.jpg"
+  }, {
+    "id": 5,
+    "owner": "Topezzi Mimi",
+    "city": "nakuru",
+    "type": "House",
+    "bedrooms": 4,
+    "image": "https://unsplash.com/photos/bjej8BY1JYQ.jpg"
+  }, {
+    "id": 6,
+    "owner": "Michelle Daniels",
+    "city": "Miami",
+    "type": "House",
+    "bedrooms": 7,
+    "image": "https://unsplash.com/photos/KtOid0FLjqU.jpg"
+  }]
+}

@@ -1,0 +1,9 @@
+<li>
+  {{apartment.owner}}'s {{apartment.bedrooms}} bedroom {{apartment.type}} in {{apartment.city}}
+  {{#if isImageShowing}}
+    <p><img src= {{apartment.image}} alt= {{apartment.type}} {{action 'imageHide'}}></p>
+  {{else}}
+    <button {{action 'imageShow'}}>Show Image</button>
+  {{/if}}
+  <button {{action 'delete' apartment}}>Delete Apartment</button>
+</li>

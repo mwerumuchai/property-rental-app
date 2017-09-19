@@ -18,6 +18,13 @@ module.exports = function(environment) {
       }
     },
 
+      firebase: {
+      apiKey: 'AIzaSyBEQoLVfokR2kItT7sUtySxtf7TBzp-fmw',
+      authDomain: 'property-rental-app-bd72a.firebaseapp.com',
+      databaseURL: 'https://property-rental-app-bd72a.firebaseio.com',
+      storageBucket: ''
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

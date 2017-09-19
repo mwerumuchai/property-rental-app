@@ -1,0 +1,12 @@
+<h4>Welcome To Property Rentals</h4>
+
+{{#link-to 'about'}}About Us.{{/link-to}}
+{{#link-to 'contact'}}Contact Us.{{/link-to}}
+
+<ol>
+  {{#each model as |apartment|}}
+    {{apartment-tile apartment=apartment destroyApartment="destroyApartment"}}
+  {{/each}}
+</ol>
+
+{{new-apartment saveApartment2="saveApartment3"}}
