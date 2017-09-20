@@ -12,11 +12,7 @@ export default Ember.Route.extend({
       var newApartment = this.store.createRecord('apartment', params);
       newApartment.save();
       this.transitionTo('index');
-    },
-
-    destroyApartment(apartment) {
-      apartment.destroyApartment();
-      this.transitionTo('index');
+    
     }
   }
 });
