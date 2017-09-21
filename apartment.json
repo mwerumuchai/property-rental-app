@@ -41,5 +41,14 @@
     "type": "House",
     "bedrooms": 7,
     "image": "https://unsplash.com/photos/KtOid0FLjqU.jpg"
-  }]
+  }],
+  "reviews": [{
+   "author": "Mike",
+   "rating": 4,
+   "content": "Cracks on the wall."
+ }, {
+   "author": "Emily",
+   "rating": 6,
+   "content": "Dragon Attack!"
+ }]
 }

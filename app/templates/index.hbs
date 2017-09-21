@@ -3,10 +3,25 @@
 {{#link-to 'about'}}About Us.{{/link-to}}
 {{#link-to 'contact'}}Contact Us.{{/link-to}}
 
-<ol>
-  {{#each model as |apartment|}}
-    {{apartment-tile apartment=apartment}}
+<p>See available apartments that suite your needs</p>
+
+<h2> Available Apartments </h2>
+
+<ul>
+  {{#each model.apartments as |apartment|}}
+    {{rental-tile apartment=apartment}}
   {{/each}}
-</ol>
+</ul>
 
 {{new-apartment saveApartment2="saveApartment3"}}
+
+<h2> All Reviews </h2>
+
+<ul>
+  {{#each model.reviews as |review|}}
+    <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
+  {{/each}}
+</ul>
+{{new-review saveReview="saveReview"}}
+
+<hr>
