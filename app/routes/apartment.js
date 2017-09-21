@@ -6,17 +6,17 @@ export default Ember.Route.extend({
   },
   actions: {
     update(apartment, params) {
-     Object.keys(params).forEach(function(key) {
-       if(params[key]!==undefined) {
-         apartment.set(key,params[key]);
-       }
-     });
-     apartment.save();
-     this.transitionTo('index');
-   },
-   destroyApartment(apartment) {
-     apartment.destroyRecord();
-     this.transitionTo('index');
-   }
- }
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          apartment.set(key,params[key]);
+        }
+      });
+      apartment.save();
+      this.transitionTo('index');
+    },
+    destroyApartment(apartment) {
+      apartment.destroyRecord();
+      this.transitionTo('index');
+    }
+  }
 });

@@ -1,9 +1,8 @@
 <li>
   {{#link-to 'apartment' apartment.id}}{{apartment.owner}}'s {{apartment.type}} in {{apartment.city}} {{/link-to}}
   {{#if isImageShowing }}
-    <p><img src= {{apartment.image}} alt= {{apartment.type}} {{action 'imageHide'}}></p>
+    <p><img src={{apartment.image}} alt={{apartment.type}} {{action 'imageHide'}} ></p>
   {{else}}
-    <button {{action 'imageShow'}}>Show image</button>
+    <button {{action 'imageShow'}} >Show image</button>
   {{/if}}
-
 </li>
